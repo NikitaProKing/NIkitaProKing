@@ -15,4 +15,4 @@ RUN pip install -r requarements.txt
 
 COPY . /app/
 
-CMD ["python", "manage.py", "runserver", "0.0.0.0.80"]
+CMD ["python", "manage.py", "runserver", "0.0.0.0:80"]
